@@ -38,4 +38,9 @@ public class Servicio implements Propuesta{
         }
     }
 
+    public void actualizarPrecio(Double nuevoPrecio) {
+        validar(nuevoPrecio);
+        this.precio = nuevoPrecio;
+    }
+
 }
