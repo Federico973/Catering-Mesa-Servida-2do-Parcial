@@ -50,4 +50,5 @@ public class Menu implements Propuesta{
     public void quitar(Propuesta unaPropuesta) {
         propuesta.remove(unaPropuesta);
     }
+
 }
